@@ -23,7 +23,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
 	-->
 	
-	<div class="container-fluid bg-dark bg-gradient">
+	<div class="container-fluid bg-dark bg-gradient" id="navbar">
 		<div class="container">
 			<div class="row" >
 				<nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient" aria-label="Fifth navbar example">
@@ -40,7 +40,7 @@
 						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 							
 							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" id="dropdownhistory" data-bs-toggle="dropdown" aria-expanded="false">Chapters of History</a>
+								<a class="nav-link dropdown-toggle active" href="#" id="dropdownhistory" data-bs-toggle="dropdown" aria-expanded="false">Chapters of History</a>
 								<ul class="dropdown-menu" aria-labelledby="dropdownhistory">
 									<li><a class="dropdown-item" href="domain.html">Domain names and ICANN</a></li>
 									<li><a class="dropdown-item" href="addresses.html">IP Addresses, Packets and Routing</a></li>
@@ -51,11 +51,11 @@
 							</li>
 							
 							<li class="nav-item">
-								<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+								<a class="nav-link disabled" aria-current="page" href="index.html">Home</a>
 							</li>
 							
 							<li class="nav-item">
-								<a class="nav-link" aria-current="page" href="about.html">About</a>
+								<a class="nav-link active" aria-current="page" href="about.html">About</a>
 							</li>
 						
 						</ul>
@@ -65,7 +65,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="container bg-light">
+	<div class="container bg-secondary" id="content">
 		
 		<div class="row">
 			<div class="card bg-dark text-white p-0 m-0">
